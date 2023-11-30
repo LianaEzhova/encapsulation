@@ -5,7 +5,7 @@ public class Main {
 
         Elevator elevator = new Elevator(-4, 26);
         while (true){
-            System.out.println("ВВедите номер этажа: ");
+            System.out.println("Введите номер этажа: ");
             int floor = new Scanner(System.in).nextInt();
             elevator.move(floor);
         }
